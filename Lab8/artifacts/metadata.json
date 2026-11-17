@@ -1,0 +1,35 @@
+{
+    "student": "Моторін Максим Сергійович",
+    "variant": 8,
+    "dataset": "UCI Wine Quality (Red)",
+    "task_type": "Regression",
+    "seed": 42,
+    "best_model_name": "Random Forest",
+    "validation_metrics": {
+        "DummyRegressor": {
+            "RMSE": 0.773435348281287,
+            "MAE": 0.6577189454870419,
+            "R2": -0.004005038233321212
+        },
+        "RandomForestRegressor": {
+            "RMSE": 0.5712872890820053,
+            "MAE": 0.44275,
+            "R2": 0.4522315918295988
+        },
+        "Base_NN": {
+            "RMSE": 0.6392576931522956,
+            "MAE": 0.5102609992027283,
+            "R2": 0.3141331076622009
+        },
+        "Improved_NN": {
+            "RMSE": 0.6458888465854464,
+            "MAE": 0.5113612413406372,
+            "R2": 0.29983001947402954
+        }
+    },
+    "test_metrics": {
+        "RMSE": 0.6098766951879153,
+        "MAE": 0.44337499999999996,
+        "R2": 0.4466865702479338
+    }
+}

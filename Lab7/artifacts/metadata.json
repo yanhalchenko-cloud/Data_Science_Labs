@@ -1,0 +1,12 @@
+{
+    "student": "Моторін Максим Сергійович",
+    "dataset": "Fashion-MNIST",
+    "variant": 8,
+    "variant_description": "batch_size=256 замість 128",
+    "selected_model": "Варіант 8",
+    "packages": {
+        "tensorflow": "2.22.0-rc0",
+        "pandas": "3.0.6",
+        "scikit-learn": "1.9.1"
+    }
+}
